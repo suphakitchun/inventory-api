@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch server.ts",
-    "build": "prisma generate && prisma db push",
-    "start": "tsx server.ts",
-    "postinstall": "prisma generate"
+  "dev": "tsx watch server.ts",
+  "build": "prisma generate && prisma db push",
+  "start": "tsx server.ts"
   },
   "dependencies": {
     "@prisma/client": "^6.19.3",
