@@ -1,0 +1,22 @@
+{
+  "name": "inventory-api",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "generate": "prisma generate",
+    "migrate": "prisma migrate dev --name init"
+  },
+  "dependencies": {
+    "@fastify/type-provider-typebox": "^6.1.0",
+    "@prisma/client": "^6.19.3",
+    "@sinclair/typebox": "^0.34.49",
+    "fastify": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.17",
+    "prisma": "^6.19.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.0.0"
+  }
+}
